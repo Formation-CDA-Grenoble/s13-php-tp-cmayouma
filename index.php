@@ -116,3 +116,18 @@
     </div>
 </body>
 </html>
+<?php
+$servername= "localhost";
+$database= "videogames";
+$username= "name";
+$link= "link";
+
+$conn= mysqli_connect($username,$link,$database);
+
+if(!$cone) {
+    die("connection failled").mysqli_connect_error
+    ());
+}
+echo "connected succesfully";
+mysqli_close($conn)
+?>
